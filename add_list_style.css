@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.add-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.add-form {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-title {
+  padding: 5px;
+  font-size: 24px;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #222;
+}
+
+.list-item {
+  margin: 10px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-item input {
+  padding: 5px;
+  width: 85%;
+  outline: 0;
+  border: 1px solid #222;
+  font-size: 14px;
+}
+
+.list-item .delete-btn {
+  background: none;
+  color: #fa6b6b;
+  border: none;
+}
+
+.add-item-btn {
+  width: 30px;
+  height: 30px;
+  background: none;
+  color: #222;
+  border: 1px solid #222;
+}
+
+.btn-container {
+  align-self: flex-end;
+}
+
+.create-btn {
+  margin-top: 20px;
+  width: 60px;
+  height: 30px;
+  font-size: 12px;
+  background-color: #77d970;
+  border: none;
+}
+
+.cancel-btn {
+  margin-top: 20px;
+  width: 60px;
+  height: 30px;
+  font-size: 12px;
+  background-color: #efefef;
+  border: none;
+}
